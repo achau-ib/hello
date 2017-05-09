@@ -1,0 +1,10 @@
+package addy-add-add
+
+import (
+	"fmt"
+	"math"
+)
+
+func AddyAddAdd(x, y int) int {
+	return x+y
+}
