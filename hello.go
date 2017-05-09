@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
-	"addy-add-add"
+	"github.com/user/addyAddAdd"
 )
 
 func main() {
 	const World = "世界"
-	int sum;
+	var total int
+	
 	fmt.Printf("Hello world!\n")
 	fmt.Println("Hello", World)
-	sum = AddyAddAdd(1, 2)
-	fmt.Println("Sum1 = ", sum)
-	fmt.Println("Sum2 = ", AddyAddAdd(sum, 4))
+	total = addyAddAdd.AddyAddAdd(1, 2)
+	fmt.Println("Sum1 = ", total)
+	fmt.Println("Sum2 = ", addyAddAdd.AddyAddAdd(total, 4))
 }
